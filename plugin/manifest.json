@@ -1,0 +1,40 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "一覧拡張プラグイン",
+        "en": "Advanced View Plugin"
+    },
+    "description": {
+        "ja": "一覧拡張プラグイン",
+        "en": "Advanced View Plugin"
+    },
+    "icon": "img/icon.png",
+    "desktop": {
+        "js": [
+            "https://cdn.jsdelivr.net/npm/vue/dist/vue.js",
+            "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js",
+            "https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js",
+            "desktop.js"
+        ],
+        "css": [
+            "css.css",
+            "desktop.css"
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://cdn.jsdelivr.net/npm/vue/dist/vue.js",
+            "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js",
+            "https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js",
+            "config.js"
+        ],
+        "css": [
+            "css.css",
+            "config.css"
+        ],
+        "required_params": []
+    }
+}

@@ -1,0 +1,44 @@
+// vuetify usable only inside kintone-customize
+.kintone-customize {
+    @import "vuetify";
+}
+
+// override few properties
+html {
+    .kintone-customize {
+        .application--wrap {
+            min-height: auto;
+        }
+
+        ::-webkit-scrollbar {
+            background: transparent;
+            height: 4px;
+            width: 4px;
+        }
+
+        :hover::-webkit-scrollbar-thumb {
+            background: #bdbdbd;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background: #ddd;
+            min-height: 40px;
+        }
+    }
+}
+
+html .kintone-customize {
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+}
+
+html .kintone-customize {
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,17 @@
+{
+    "extends": "eslint-config-kintone",
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console": 0,
+        "no-shadow": 0,
+        "space-before-function-paren": 0,
+        "linebreak-style": 0
+    },
+    "globals": {
+        "kintone": true,
+        "Vue": true
+    }
+}
