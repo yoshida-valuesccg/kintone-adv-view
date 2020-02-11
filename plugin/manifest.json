@@ -13,9 +13,6 @@
     "icon": "img/icon.png",
     "desktop": {
         "js": [
-            "https://cdn.jsdelivr.net/npm/vue/dist/vue.js",
-            "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js",
-            "https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js",
             "desktop.js"
         ],
         "css": [
@@ -26,9 +23,6 @@
     "config": {
         "html": "html/config.html",
         "js": [
-            "https://cdn.jsdelivr.net/npm/vue/dist/vue.js",
-            "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js",
-            "https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js",
             "config.js"
         ],
         "css": [
